@@ -1,6 +1,6 @@
 % while ($Values and my $value = $Values->Next) {
 <textarea \
-% if (defined $Col) {
+% if (defined $Cols) {
 cols="<% $Cols %>" \
 % }
 % if (defined $Rows) {

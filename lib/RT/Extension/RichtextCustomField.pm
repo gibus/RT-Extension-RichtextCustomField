@@ -4,13 +4,13 @@ use warnings;
 no warnings qw(redefine);
 package RT::Extension::RichtextCustomField;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =encoding utf8
 
 =head1 NAME
 
-RT-Extension-RichtextCustomField - CF with wysiwig editor
+RT-Extension-RichtextCustomField - CF with wysiwyg editor
 
 =head1 DESCRIPTION
 

@@ -1,6 +1,6 @@
 # NAME
 
-RT-Extension-RichtextCustomField - CF with wysiwig editor
+RT-Extension-RichtextCustomField - CF with wysiwyg editor
 
 # DESCRIPTION
 
