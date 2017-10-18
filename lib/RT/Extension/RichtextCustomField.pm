@@ -10,7 +10,7 @@ our $VERSION = '0.03';
 
 =head1 NAME
 
-RT-Extension-RichtextCustomField - CF with wysiwyg editor
+RT::Extension::RichtextCustomField - CF with wysiwyg editor
 
 =head1 DESCRIPTION
 
