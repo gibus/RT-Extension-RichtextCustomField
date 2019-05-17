@@ -14,7 +14,7 @@ RT::Extension::RichtextCustomField - CF with wysiwyg editor
 
 =head1 DESCRIPTION
 
-Provide a new type of L<custom field|RT::CustomField>, similar to Text but with wysiwyg editor when editing value.
+Provide a new type of L<custom field|https://docs.bestpractical.com/rt/4.4.4/RT/CustomField.html>, similar to Text but with wysiwyg editor when editing value.
 
 =head1 RT VERSION
 
