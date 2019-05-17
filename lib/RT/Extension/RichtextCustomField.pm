@@ -32,6 +32,15 @@ Works with RT 4.2 or greater
 
 May need root permissions
 
+=item Patch your RT
+
+C<RichtextCustomField> requires a small patch to allow  L<custom fields|https://docs.bestpractical.com/rt/4.4.4/RT/CustomField.html> with C<Richtext> type to be chosen as recipient for extracting from a L<ticket|https://docs.bestpractical.com/rt/4.4.4/RT/Ticket.html> into an L<article|https://docs.bestpractical.com/rt/4.4.4/RT/Article.pm>. I<You have to apply this patch if you need this feature, and only in this case.>
+
+For RT 4.4 or lower, apply the included patch:
+
+    cd /opt/rt4 # Your location may be different
+    patch -p1 < /download/dir/RT-Extension-RichtextCustomField/patches/4.4-add-Richtext-CFs-ExtractArticleFromTicket.patch
+
 =item Edit your F</opt/rt4/etc/RT_SiteConfig.pm>
 
 If you are using RT 4.2 or greater, add this line:
