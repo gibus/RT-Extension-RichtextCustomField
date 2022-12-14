@@ -4,7 +4,7 @@ use warnings;
 no warnings qw(redefine);
 package RT::Extension::RichtextCustomField;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 =encoding utf8
 
@@ -82,7 +82,7 @@ $RT::CustomField::FieldTypes{Richtext} = {
 
 =head1 AUTHOR
 
-Gérald Sédrati-Dinet E<lt>gibus@easter-eggs.comE<gt>
+Gérald Sédrati E<lt>gibus@easter-eggs.comE<gt>
 
 =head1 REPOSITORY
 
@@ -100,7 +100,7 @@ L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=RT-Extension-Rich
 
 =head1 LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2017 by Gérald Sédrati-Dinet, Easter-Eggs
+This software is Copyright (c) 2017-2022 by Gérald Sédrati, Easter-Eggs
 
 This is free software, licensed under:
 

@@ -53,7 +53,7 @@ This will be processed by standard RT database upgrade with `/opt/rt5/sbin/rt-se
 
 # AUTHOR
 
-Gérald Sédrati-Dinet <gibus@easter-eggs.com>
+Gérald Sédrati <gibus@easter-eggs.com>
 
 # REPOSITORY
 
@@ -71,7 +71,7 @@ or via the web at
 
 # LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2017 by Gérald Sédrati-Dinet, Easter-Eggs
+This software is Copyright (c) 2017-2022 by Gérald Sédrati, Easter-Eggs
 
 This is free software, licensed under:
 
